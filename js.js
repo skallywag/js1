@@ -35,3 +35,49 @@ console.log(`my name is ${names[0]} my favorite fruit is ${fruits[1]} my dog is 
 
 //_________________________________________________
 //----------- Objects -------------
+
+// objects are a collection of PROPERTIES with key VALUES 
+
+// var luke = {
+// 	"name": "Luke Skywalker",
+// 	"height": "172",
+// 	"mass": "77",
+// 	"hair_color": "blond",
+// 	"skin_color": "fair",
+// 	"eye_color": "blue",
+// 	"birth_year": "19BBY",
+// 	"gender": "unknown",
+// }
+
+// luke['name'] //Bracket notation
+// luke.gender.notation
+
+
+// var myCar = new Object();
+// myCar.make = `ford`
+// myCar.color = 'green'
+// myCar.horsepower = '400'
+// console.log(`my cars horsepower is around ${myCar.horsepower}`)
+
+// myCar
+// var myCar
+
+// var dog = {
+//  name : "otis",
+//  age : "4",
+//  breed : "yorkshire",
+// }
+
+// dog.name
+// 
+function Car(make, model, year) {
+    Car.make = make;
+    this.model = model;
+    this.year = year;
+  }
+  
+  var mustang = new Car("ford", "mustang", "95")
+  mustang
+  
+  var subaru =new Car("subaru", "wrx", "06")
+  subaru
