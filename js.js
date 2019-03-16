@@ -33,3 +33,5 @@ var dog = `otis`
 console.log(`my name is ${names[0]} my favorite fruit is ${fruits[1]} my dog is ${dog}
 `)
 
+//_________________________________________________
+//----------- Objects -------------
